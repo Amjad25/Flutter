@@ -1,0 +1,45 @@
+void main() {
+
+  double m1= 90.5 ;
+  double m2= 98 ;
+  double m3= 79.5;
+  double m4= 75.5;
+  double m5= 76;
+
+  double t_marks = m1+m2+m3+m4+m5;
+  double prcnt = (t_marks/500)*100;
+  String grade = 'NULL';
+  if(prcnt>=80){
+    grade = 'A';
+  }
+  else if(prcnt<80 && prcnt>=70){
+    grade = 'B';
+  }
+  else if(prcnt<70 && prcnt>=60){
+    grade = 'C';
+  }
+  else if(prcnt<60 && prcnt>=50){
+    grade = 'D';
+  }
+  else if(prcnt<50){
+    grade = 'F';
+  };
+  
+  
+  print("          ********* INSTITUTE JAWAN PAKSITAN *********");
+  print("           *********    STUDENT MARKSHEET   *********\n");
+  print("NAME :: AMJAD ALI KHAN:  ");
+  print("AGE :: 20  \n");
+  print("Subjects    |  Marks  \n");
+  print("ENGLISH     =   $m1 ");
+  print("URDU        =   $m2 ");
+  print("MATHS       =   $m3 ");
+  print("COMPUTER    =   $m4 "); 
+  print("SCIENCE     =   $m5 \n\n" );
+  print("TOTAL MARKS GAINED   ==  $t_marks");
+  print("             GRADE   ==  $grade  ");
+  print("      PERCENTAGE %   ==  $prcnt  ");
+  
+
+}
+
