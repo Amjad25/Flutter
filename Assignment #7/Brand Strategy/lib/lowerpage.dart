@@ -29,14 +29,16 @@ class _lowState extends State<low> {
                     text:
                         '\nDean on branding presents in a compact form the twenty essential principles of branding that will lead to the creation of strong bonds.....',
                     style: gtext),
+                    
               ],
             ),
             
       ),
       Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      crossAxisAlignment: CrossAxisAlignment.start,
+      
       children: [
+        SizedBox(height: size.height*0.15,),
         SizedBox(
           width: 160,
           child: OutlinedButton.icon(
@@ -51,9 +53,7 @@ class _lowState extends State<low> {
             ),
           ),
         ),
-        // SizedBox(
-        //   width: 2,
-        // ),
+        
         SizedBox(
           width: 160,
           child: OutlinedButton.icon(
